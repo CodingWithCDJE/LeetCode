@@ -1,16 +1,11 @@
 """
-  Approach:
+Given an array of integers nums and an integer target, return 
+indices of the two numbers such that they add up to target.
 
-     Two Pointers
-     left_pointer, right_pointer
-     left will start at 0
-     right will start at left+1
-     We'll iterate through the array until left < right
-     Create a variable that will contain the sum of list[left] + list[right]
-     We'll check whether the first two equals to the target
-     if not then we'll have to keep moving rightpointer until it reaches the end
-     of the array and that's when we'll increment the leftpointer and reset the
-     right pointer to be the left_pointer +1
+You may assume that each input would have exactly one solution, 
+and you may not use the same element twice.
+
+You can return the answer in any order.
 """
 
 
