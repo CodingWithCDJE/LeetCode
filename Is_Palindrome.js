@@ -1,3 +1,7 @@
+/*
+Given an integer x, return true if x is a palindrome, and false otherwise.
+*/
+
 const isPalindrome = function (x) {
   let str = x.toString();
   for (let i = 0; i < x.length; i++) {
